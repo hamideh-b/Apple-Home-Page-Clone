@@ -1,0 +1,44 @@
+.nav-blur {
+  backdrop-filter: blur(20px);
+  z-index: -2;
+  height: 0;
+}
+@keyframes curtain {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100vh;
+  }
+}
+.nav-curtain {
+  animation: curtain 100ms linear forwards;
+  -webkit-animation: curtain 100ms linear forwards;
+}
+
+.sub-menu {
+  transition: 500ms;
+  h2 {
+    font-size: 12px;
+    color: #c7c8c9;
+  }
+  .sub-menu-column:first-child a {
+    font-size: 20px !important;
+  }
+}
+@keyframes opacitysub {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.opacity-sub-menu {
+  animation: opacitysub 1000ms ease forwards;
+  -webkit-animation: opacitysub 1000ms ease forwards;
+}
+main{
+  padding-top: 50px;
+}
+ 

@@ -1,0 +1,171 @@
+@media screen and (max-width: 768px) {
+  header nav {
+    padding: 5px 0 !important;
+    .navbar-brand {
+      font-size: 19px;
+    }
+    .navbar-nav > .nav-item {
+      a {
+        font-size: 20px !important;
+      }
+      .fa-angle-right {
+        font-size: 20px;
+        color: #c7c8c9;
+      }
+      &:hover .fa-angle-right {
+        display: block !important;
+      }
+    }
+  }
+
+  .wrapper-product {
+    height: 500px;
+    .wrapper-product-top {
+      h2 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 19px;
+      }
+    }
+    .wrapper-product-bottom {
+      a {
+        font-size: 14px;
+        padding: 7px 15px;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .iphone-pro-16 {
+      background: url(../images/hero_iphone16pro_small.jpg) no-repeat center
+        center;
+      background-size: cover;
+    }
+    .iphone-16 {
+      background: url(../images/hero_iphone16-small.jpg) no-repeat center center;
+      background-size: cover;
+    }
+
+    .watch-10 {
+      background: url(../images/hero_apple_watch_series_10small.jpg) no-repeat
+        center center;
+      background-size: cover;
+
+      .watch-logo {
+        width: inherit;
+        height: 70px;
+        background: url(../images/hero_logo_apple_watch_series_10-small.png)
+          no-repeat center center;
+      }
+    }
+  }
+  .promo-container {
+    display: block;
+    .wrapper-promo {
+      height: 500px;
+      a.btn {
+        font-size: 14px;
+      }
+      .airpod-promo {
+        background: url(../images/promo_airpods_small.jpg) no-repeat center
+          center;
+        background-size: cover;
+      }
+      .wrapper-promo-section {
+        h3 {
+          font-size: 32px;
+        }
+        p {
+          font-size: 19px;
+        }
+      }
+      .airpod-pro-promo {
+        background: url(../images/promo_airpods_pro_2_small.jpg) repeat center
+          center;
+      }
+      .promo-ipad-mini {
+        background: url(../images/promo_ipad_mini_small.jpg) no-repeat center
+          center;
+        background-size: cover;
+      }
+      .watch-ultra {
+        background: url(../images/promo_apple_watch_ultra2_small.jpg) no-repeat
+          center center;
+        background-size: cover;
+        .watch-ultra-logo {
+          height: 70px;
+          background: url(../images/promo_logo_apple_watch_ultra2_small.png)
+            no-repeat center center;
+        }
+      }
+      .iphone-tradeIn {
+        background: url(../images/promo_iphone_tradein_small.jpg) no-repeat
+          center center;
+        background-size: cover;
+        .iphone-tradeIn-logo {
+          height: 70px;
+          background: url(../images/promo_logo_iphone_tradein_small.png)
+            no-repeat center center;
+        }
+      }
+      .card-promo {
+        background: url(../images/promo_apple_card_small.jpg) no-repeat center
+          center;
+        background-size: cover;
+        .card-promo-logo {
+          height: 70px;
+          background: url(../images/logo_card_small.png) no-repeat center center;
+        }
+      }
+    }
+  }
+
+  #footer {
+    background-color: #F5F5F7;
+    .global-footer-info {
+      font-size: 12px;
+    }
+    .column-section {
+      h3 {
+        cursor: pointer;
+        font-weight: 500 !important;
+        padding: 12px 0;
+        font-size: 12px;
+      }
+      .border-h3 {
+        border-bottom: 2px solid #dee2e6;
+      }
+      a {
+        font-size: 12px;
+        text-decoration: none;
+        color: rgb(33 37 41 / 75%);
+      }
+    }
+    a {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  .fadeIn {
+    animation: fadeIn 150ms ease forwards;
+    -webkit-animation: fadeIn 150ms ease forwards;
+  }
+  @keyframes fadeIn {
+    from {
+      transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -o-transform: translateY(-15px);
+    }
+    to {
+      transform: translateY(0px);
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      -o-transform: translateY(0px);
+    }
+  }
+}

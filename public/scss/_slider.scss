@@ -1,0 +1,73 @@
+@mixin sizing($width,$height){
+  width: $width;
+  height: $height;
+}
+@mixin fontsizing($bottom,$pFont,$aFont){
+  bottom: $bottom;
+  p{
+    font-size: $pFont;
+  }
+  a{
+    font-size: $aFont;
+  }
+}
+@media screen and (max-width: 767.999px) {
+    .slider {
+      @include sizing(289px,495px );
+      .innerStyle {
+        @include fontsizing(30px !important,17px ,15px )
+      }
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1067.8px) {
+    .slider {
+      @include sizing(704px,367px );
+      .innerStyle {
+        @include fontsizing(27px !important,17px ,15px )
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1068px) and (max-width: 1444px) {
+    .slider {
+      @include sizing(995px,523px );
+      .innerStyle {
+        @include fontsizing(27px !important,20px ,18px )
+      }
+    }
+  }
+  
+  @media screen and (min-width: 1445px) {
+    .slider {
+      @include sizing(1265px,667px );
+      .innerStyle {
+        @include fontsizing(36px !important,20px ,18px )
+      }
+    }
+  }
+  
+  .slide {
+    font-size: 18px;
+    background: linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.7)),linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(255,255,255,0) 200px);
+    cursor: pointer;
+    .inner {
+      bottom: -100%;
+      transition: 300ms;
+      
+      h4{
+        text-shadow: 0px 0px 5px rgb(0 0 0);
+      }
+      p{
+        text-shadow: 0px 0px 5px rgb(0 0 0);
+        font-family: sans-serif;
+      }
+    }
+}
+  
+  .dot{
+    font-size: 10px;
+    i{
+      cursor: pointer;
+    }
+  }

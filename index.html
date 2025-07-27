@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>appleBootstrap</title>
+  <link rel="stylesheet" href="./public/scss/main.css">
+  <link rel="stylesheet" href="./public/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./public/font-awesome/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- start menu -->
+    <header>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top py-md-0">
+        <div class="h-100 container-fluid col-12 col-md-12 col-lg-11 col-xl-9 col-xxl-8">
+          <a href="#" class="navbar-brand">
+            <i class="fa fa-apple"></i>
+          </a>
+          <!--start right side of menu/search,shopping -->
+          <div class="ms-auto order-md-2 ps-md-1">
+            <ul class="nav ">
+              <li class="nav-item">
+                <a href="#" class="nav-link px-2">
+                  <i class="fa fa-search text-light"></i>
+                </a>
+              </li>
+              <li class="nav-item text-end">
+                <a href="#" class="nav-link pe-md-0 ">
+                  <i class="fa fa-shopping-bag text-light"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!--end right side of menu/search,shopping -->
+          <button class="navbar-toggler navbar-toggler-icon text-light" data-bs-toggle="collapse" data-bs-target="#menu"
+            style="font-size: 12px;"></button>
+          <div class="h-100 collapse navbar-collapse" id="menu">
+            <ul class="h-100 navbar-nav w-100 justify-content-between ">
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end menu -->
+    <!--start main-->
+    <main class="position-relative">
+      <!-- start section for hero -->
+      <section class="mb-3" id="hero">
+
+      </section>
+      <!-- end section for hero -->
+      <!-- start section for promo -->
+      <section class="mb-2" id="promo">
+        <div class="promo-container">
+
+        </div>
+      </section>
+      <!-- end section for promo -->
+      <!-- start section for slider -->
+      <section id="slider" class="mb-3">
+        <div class="100vw overflow-hidden" id="swiper">
+          <div class="slider mx-auto position-relative mb-3">
+
+          </div>
+          <ul class="dot-slide d-flex justify-content-center list-unstyled m-0 ">
+
+          </ul>
+        </div>
+      </section>
+      <!-- end section for slider -->
+    </main>
+    <!--end main-->
+
+    <!-- start footer -->
+    <footer class="position-relative" id="footer" >
+      <div class="container-fluid col-12 col-md-12 col-lg-11 col-xl-9 col-xxl-8">
+        <!-- start global-footer-info -->
+        <section>
+          <ul class="list-unstyled text-muted py-3 border-bottom global-footer-info">
+
+          </ul>
+        </section>
+        <!-- end global-footer-info -->
+        <!-- start global-footer-nav -->
+        <nav class="m-0 d-flex flex-wrap justify-content-between " id="nav-footer">
+
+        </nav>
+        <!-- end global-footer-nav -->
+        <!-- start footer shop,local,breadcrumb menu -->
+        <section class="text-muted" style="font-size: 12px;">
+          <div class="footer-shop border-bottom ">
+            <p class="text-muted mt-3" style="font-size: 12px;">
+              More ways to shop:
+              <a href="#">Find an Apple Store</a>
+              or
+              <a href="#">other retailer</a>
+              near you. Or call 1-800-MY-APPLE.
+            </p>
+          </div>
+          <div class="row m-0 mt-3">
+            <div class="local col-12 col-md-2 col-lg-1 p-0 order-md-2 order-lg-3">
+              <a href="#" class="nav-link text-muted text-md-end ">United States</a>
+            </div>
+            <div class="copy-right col-12 col-md-10 col-lg-4 p-0">
+              Copyright &copy; 2024 Apple Inc. All rights reserved.
+            </div>
+            <nav class="col-12 col-md-8 col-lg-7 p-0 order-md-3 order-lg-2" style="--bs-breadcrumb-divider: '|';">
+              <ul class="list-unstyled text-muted breadcrumb" id="breadcrumb">
+
+              </ul>
+            </nav>
+          </div>
+        </section>
+        <!-- end footer shop,local,breadcrumb menu -->
+      </div>
+      <!-- end footer container -->
+    </footer>
+    <!-- end footer -->
+  </div>
+  <!-- end wrapper -->
+
+  <script type="module" src="/main.js"></script>
+  <script src="./public/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
