@@ -39,6 +39,10 @@
   -webkit-animation: opacitysub 1000ms ease forwards;
 }
 main{
-  padding-top: 50px;
+  padding-top: 50px; 
 }
+.breadcrumb-item::before{
+  padding:0 4px 0 0!important;
+}
+
  
